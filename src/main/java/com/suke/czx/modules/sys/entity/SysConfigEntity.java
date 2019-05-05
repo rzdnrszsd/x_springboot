@@ -5,6 +5,7 @@ import org.hibernate.validator.constraints.NotBlank;
 
 /**
  * 系统配置信息
+ *
  * 
  * @author czx
  * @email object_czx@163.com
