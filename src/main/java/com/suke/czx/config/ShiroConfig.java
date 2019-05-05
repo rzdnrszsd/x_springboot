@@ -21,7 +21,7 @@ import java.util.Map;
 /**
  * Shiro配置
  *
- * @author czx
+ * @author yangyonglong
  * @email object_czx@163.com
  * @date 2017-04-20 18:33
  */
