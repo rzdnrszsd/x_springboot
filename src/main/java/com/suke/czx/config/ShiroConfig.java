@@ -28,6 +28,8 @@ import java.util.Map;
 @Configuration
 public class ShiroConfig {
 
+
+
     @Bean("sessionManager")
     public SessionManager sessionManager(){
         DefaultWebSessionManager sessionManager = new DefaultWebSessionManager();
