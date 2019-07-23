@@ -1,5 +1,6 @@
 package com.suke.czx.common.utils;
 
+import com.fasterxml.jackson.annotation.JsonFormat;
 import net.sf.json.JSONObject;
 
 import java.io.*;
@@ -38,8 +39,9 @@ public class CHttpRequest
 			httpUrlConn.setUseCaches(false);
 			httpUrlConn.setRequestMethod(requestMethod);			// 设置请求方式（GET/POST）
 
-			if ("GET".equalsIgnoreCase(requestMethod))
+			if ("GET".equalsIgnoreCase(requestMethod)){
 				httpUrlConn.connect();
+			}
 
 			// 将返回的输入流转换成字符串
 			inputStream = httpUrlConn.getInputStream();
